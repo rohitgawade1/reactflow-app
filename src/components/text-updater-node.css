@@ -1,0 +1,48 @@
+.text-updater-node {
+    height: 50px;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  .text-updater-node label {
+    display: block;
+    color: #777;
+    font-size: 12px;
+  }
+  
+  .box-container{
+    border: 1px solid black;
+    height: .5rem;
+    width: 7rem !important;
+    border-radius: 4px;
+    padding: .7rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* gap: 5rem; */
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .close{
+    color: red;
+    background-color: white;
+    border: none;
+    padding: .3rem;
+    position: absolute;
+    top: 1;
+    cursor: pointer;
+    right: 0;
+    display: none;
+    /* visibility: hidden  ; */
+    /* z-index: 1; */
+  }
+
+.box-container:hover .close{
+    display: block;
+    cursor: pointer;
+}
